@@ -1,0 +1,27 @@
+.header{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.box{
+    width: 100px;
+    height: 220px;
+    margin: auto;
+    margin-top: 35px;
+    background-color: blue;
+    border: solid red;
+    font-size: 20px;
+}
+
+/* p{
+    text-align: center;
+} */
+
+/* @media (900px < width){
+    .box{
+        width: 90%;
+        background-color: blueviolet;
+        font-size: 15px;
+    }
+} */

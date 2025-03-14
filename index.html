@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Queries</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="container bg-gray-200 p-6 sm: bg-blue-100 md:bg-green-200 lg:bg-red-200 xl:bg-pink-400"
+  >
+    <header class="header bg-gray-800 text-[red] text-center p-4">
+      <h1>Media Queries with Plain CSS & Tailwind CSS</h1>
+    </header>
+    <nav>
+      <ul class="flex justify-evenly">
+        <li class="border-b border-pink-800"><a href="#">HOME</a></li>
+        <li class="border-b border-pink-800"><a href="#">ABOUT US</a></li>
+        <li class="border-b border-pink-800"><a href="#">CONTACT US</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="box bg-blue-800">
+        <p>This is a box that will change width for different screens.</p>
+      </div>
+
+      <h2 class="flex justify-center mt-5 lg:flex-row justify-end">
+        In this section, the header will change.
+      </h2>
+
+      <section>
+        <p class="text-center sm:bg-red-600 md:text-[white]">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+          eaque numquam doloremque consequatur, nam corporis, ratione quibusdam
+          deserunt voluptatem qui quod aperiam dolore. Blanditiis iusto, tempora
+          eligendi ducimus eveniet delectus?
+        </p>
+      </section>
+
+      <section>
+        <h2>Paragraph Change</h2>
+        <img
+          src="https://images.unsplash.com/photo-1471899236350-e3016bf1e69e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zmxvd2VyfGVufDB8fDB8fHww"
+          alt="pink flower"
+        />
+        <p class="text-[18px] md:text-[22px] lg:text-[26px] sm:p-6 md:p-8 lg:p-10 xl:p-12">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus vel
+          corrupti quae, illo velit veritatis veniam aperiam accusantium itaque
+          numquam libero voluptate! Maiores adipisci voluptatum voluptatibus
+          dignissimos voluptates eveniet similique!
+        </p>
+      </section>
+
+      <section>
+        <h2>Another Change</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
+          minima accusantium sunt consequuntur? Ipsam, a corrupti vitae fugit
+          dicta perferendis molestias pariatur natus dolor, impedit earum nisi
+          obcaecati, magnam molestiae!
+        </p>
+      </section>
+    </main>
+    <footer class="bg-white text-[18px] mt-15">
+      <p>Copyright &copy 2025. Shantel Smith.</p>
+    </footer>
+  </body>
+</html>
